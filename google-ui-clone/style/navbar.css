@@ -1,0 +1,50 @@
+
+
+.a-nav {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: inherit;
+    color: black;
+
+}
+
+.a-nav:hover {
+    text-decoration: underline;
+}
+
+.ul-nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 4px 0px 35px;
+    list-style-type: none;
+    justify-content: right;
+}
+
+.signin-nav {
+    text-decoration: inherit;
+    background: #1A73E8;
+    border: none;
+    padding: 9px 23px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.signin-nav:hover {
+    border: 0.25px solid gray;
+    outline: none;
+    background: #4285f4;
+}
+
+.a-signin-nav {
+    text-decoration: inherit;
+    color: white;
+    font-size: 14px;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    letter-spacing: .25;
+    text-align: center;
+    font-weight: 500px;
+    line-height: 16px;
+}
